@@ -1,0 +1,26 @@
+.button
+{
+    background-color: rgb(250, 250, 93);
+    font-size: 30px;
+    font-family: monospace;
+    border: none;
+    border-radius: 10px;
+}
+
+.on
+{
+    color: rgb(167, 104, 201);
+}
+
+.off
+{
+    color: rgb(250, 250, 93);
+}
+
+.on:hover
+{
+    color: rgb(250, 250, 93);
+    background-color: rgb(167, 104, 201);
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
